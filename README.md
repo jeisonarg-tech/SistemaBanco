@@ -6,7 +6,7 @@ Implementa una estructura de datos FIFO (First In, First Out) donde el primer
 cliente en llegar es el primero en ser atendido.
 
 ## Autor
-Jeison - Uniremington - Algoritmos II - 3er Semestre
+Jeison - Uniremington - Estructura de Datos - 3er Semestre
 
 ## Estructura del proyecto
 <img width="600" height="380" alt="estructura_proyecto" src="https://github.com/user-attachments/assets/8ab1407c-2486-47fd-a6ec-0dfb5e43907c" />
