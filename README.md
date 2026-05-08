@@ -51,26 +51,5 @@ clientes en espera en el archivo cola_banco.txt. Al volver a ejecutar
 el programa los clientes se recuperan automáticamente.
 
 ## Diagrama de clases UML
-+------------------+       +-------------------+
-|     Cliente      |       |   ColaBanco<T>    |
-+------------------+       +-------------------+
-| -nombre          |       | -cola: Queue<T>   |
-| -identificacion  |<----->| +encolar(T)       |
-| -tipoTransaccion |       | +desencolar(): T  |
-| -horaLlegada     |       | +verProximo(): T  |
-| -prioridad       |       | +mostrarCola()    |
-+------------------+       | +tamanio(): int   |
-| +getters/setters |       | +isEmpty(): bool  |
-| +toString()      |       | +vaciar()         |
-+------------------+       +-------------------+
-                                    |
-              +--------------------+--------------------+
-              |                                         |
-+---------------------+                 +------------------+
-|   MenuPrincipal     |                 |   Persistencia   |
-+---------------------+                 +------------------+
-| +main()             |                 | +guardar()       |
-| +agregarCliente()   |                 | +cargar()        |
-| +atenderCliente()   |                 +------------------+
-| +mostrarCola()      |
-+---------------------+
+<img width="900" height="574" alt="diagrama_uml" src="https://github.com/user-attachments/assets/62317a3f-adff-40ac-b87d-e39cc2d3ee9c" />
+
