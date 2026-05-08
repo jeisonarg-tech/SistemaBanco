@@ -9,12 +9,7 @@ cliente en llegar es el primero en ser atendido.
 Jeison - Uniremington - Algoritmos II - 3er Semestre
 
 ## Estructura del proyecto
-SistemaBanco/
-├── Cliente.java        → Clase que representa un cliente con sus datos
-├── ColaBanco.java      → Implementación genérica de la cola FIFO
-├── MenuPrincipal.java  → Menú interactivo en consola (punto de entrada)
-├── Persistencia.java   → Guarda y carga la cola desde archivo de texto
-└── cola_banco.txt      → Archivo generado automáticamente al guardar
+<img width="600" height="380" alt="estructura_proyecto" src="https://github.com/user-attachments/assets/8ab1407c-2486-47fd-a6ec-0dfb5e43907c" />
 
 ## Requisitos
 - Java 8 o superior
